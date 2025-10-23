@@ -50,6 +50,7 @@ def genresearch():
     for h in data:
         z+=1
         x=data[z]["genres"][0]
+        print(x)
         if x==y:
             print(data[z]["title"],data[z]["genres"])
 genresearch()
