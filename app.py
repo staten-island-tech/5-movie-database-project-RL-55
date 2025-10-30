@@ -44,3 +44,4 @@ def genresearch():
             if i==y:
                 print(data[z]["title"],data[z]["genres"])
         z+=1
+
